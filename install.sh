@@ -4,6 +4,7 @@
 
 apt update && upgrade -y
 apt install -y \
+	kali-linux-default \
 	terminator \
 	curl \
 	wget \
