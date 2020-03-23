@@ -71,6 +71,8 @@ apt install -y \
 	sslyze \
 	gedit \
 	awscli \
+	ssh-audit \
+	bc \
 	windows-binaries
 
 # EXPORT GO PATH
