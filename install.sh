@@ -66,7 +66,7 @@ apt install -y \
 	neo4j \
 	bloodhound \
 	reaver \
-	testssl \
+	testssl.sh \
 	sslscan \
 	sslyze \
 	gedit \
