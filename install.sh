@@ -1,6 +1,7 @@
 
 # 2020-03-21
 # INSTALL SCRIPT FOR KALI - TESTED ON KALI 2020-1b
+# REMEMBER TO RUN AS ROOT
 
 apt update && upgrade -y
 apt install -y \
