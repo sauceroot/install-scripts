@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # This script installs the packages for vmware tools and sets up shares to automount
-# Remember to allow the share folder in vm settings on the host system  
+# IMPORTANT: Remember to enable the share folder in vm settings on the host system otherwise it'll throw an error at the end
+# Tested and works on a fresh debian 10 install
 # Source: https://kb.vmware.com/s/article/74650
 
 # If the host is running on vmware, install open-vm-tools
