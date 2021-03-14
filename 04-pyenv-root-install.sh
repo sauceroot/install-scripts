@@ -15,5 +15,7 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 EOF
 
+source /root/.bashrc
+
 pyenv install 3.9.1
 pyenv install 2.7.18
