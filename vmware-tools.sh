@@ -19,7 +19,7 @@ if [ -f /etc/systemd/system/mnt-hgfs.mount ]
 		echo "/etc/systemd/system/mnt-hgfs.mount exists."
 	else
 		echo "/etc/systemd/system/mnt-hgfs.mount does not exist."
-		cat << EOF > /etc/systemd/system/mnt-hgfs.mount
+		cat << EOF > "/etc/systemd/system/mnt-hgfs.mount"
 		[Unit]
 		Description=VMware mount for hgfs
 		DefaultDependencies=no
@@ -35,7 +35,7 @@ if [ -f /etc/systemd/system/mnt-hgfs.mount ]
 
 		[Install]
 		WantedBy=multi-user.target
-		EOF
+EOF
 fi
 
 
@@ -46,7 +46,7 @@ if [ -f /etc/modules-load.d/open-vm-tools.conf ]
 		echo "/etc/modules-load.d/open-vm-tools.conf does not exist."
 		cat << EOF > /etc/modules-load.d/open-vm-tools.conf
 		fuse
-		EOF
+EOF
 fi
 
 # Enable the service to run on startup
@@ -57,4 +57,3 @@ modprobe -v fuse
 
 # Start the service 
 systemctl start mnt-hgfs.mount
-fi
