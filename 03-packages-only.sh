@@ -36,6 +36,7 @@ mtr \
 nano \
 nbtscan \
 net-tools \
+netselect-apt \
 nfs-common \
 nmap \
 ncat \
