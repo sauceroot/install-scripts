@@ -1,6 +1,10 @@
-sudo apt  update -y
-sudo apt upgrade -y
-sudo apt install -y \
+
+# Set the non-interactive environment variable to prevent post install configuration prompts
+export DEBIAN_FRONTEND=noninteractive
+
+apt update -y
+apt upgrade -y
+apt install -y \
 arc-theme \
 aria2 \
 bc \
