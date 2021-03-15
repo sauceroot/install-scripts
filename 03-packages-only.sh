@@ -8,6 +8,7 @@ apt install -y \
 arc-theme \
 aria2 \
 bc \
+build-essential \
 bzip2 \
 coreutils \
 curl \
