@@ -24,3 +24,5 @@ curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer 
 # Install a 3.x and a 2.x version of python
 pyenv install 3.9.1
 pyenv install 2.7.18
+
+exec $SHELL
